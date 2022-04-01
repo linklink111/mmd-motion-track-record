@@ -13,3 +13,6 @@ mmd motion track record
       the people have been detected. However, it might also include false
       negatives by removing very small or highly occluded people. -1 will keep
       them all.) type: int32 default: -1
+
+但是这样虽然在大多数情况下能捕获到c位人物的动作，但有时会跳跃到非
+位上。于是我截取了舞蹈视频，把非c位的人截到只剩胳膊（看不到完整身体）
